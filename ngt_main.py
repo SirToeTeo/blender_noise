@@ -26,7 +26,7 @@ def create_grid():
 
     obj = bpy.context.active_object
 
-    obj.name = "NoiseGrid"
+    obj.name = scene.target_name
 
 
 def generate_noise():
